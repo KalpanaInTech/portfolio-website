@@ -22,4 +22,4 @@ jobs:
 
       - name: Upload Files to S3
         run: |
-          aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }}    # Syncs local files to S3, deleting extra files in S3
+          aws s3 sync . s3://kalpana-portfolio     # Syncs local files to S3, deleting extra files in S3
