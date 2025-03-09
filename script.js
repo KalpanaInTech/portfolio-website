@@ -29,3 +29,10 @@ document.addEventListener('scroll', () => {
         }
     });
 });
+
+async function getVisitorCount() {
+    const response = await fetch("https://6w4gka72i7.execute-api.eu-west-1.amazonaws.com");
+    const data = await response.json();
+    document.getElementById("visitor-count").innerText = data.visitor_count;
+  }
+  getVisitorCount();

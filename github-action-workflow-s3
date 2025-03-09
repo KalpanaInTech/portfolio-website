@@ -1,0 +1,36 @@
+VS code setup with github
+git --version
+git init
+
+connect to githun repository 
+git remote -v
+ If no remote is set, connect your GitHub repository:
+ git remote add origin https://github.com/your-username/your-repo.git
+
+update/ change code--
+
+To add your updated files to Git:
+git add .  (all files)
+or 
+git add filename.ext
+
+git commit -m "Updated web files"
+
+git push -u origin main
+
+------------------------------ 
+Creaete new workflow file
+Create a new file:
+
+-----S3 --------------------
+ Create an IAM User for GitHub Actions
+ AWS IAM Console → Users → Create User 
+ attach policy --> IAM Policy to allow uploads to S3:
+
+
+ Store AWS Credentials in GitHub Secrets
+ Add the following secrets:
+ AWS_ACCESS_KEY_ID → Your IAM user’s Access Key ID.
+ AWS_SECRET_ACCESS_KEY → Your IAM user’s Secret Access Key.
+ S3_BUCKET_NAME → Your S3 bucket name.
+ AWS_REGION → Your bucket region (e.g., us-east-1).  
