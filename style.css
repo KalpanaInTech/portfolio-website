@@ -75,10 +75,13 @@ nav {
 }
 
 .skills-list {
+    
     list-style: disc inside;
+   
 }
 
 .skills-list li {
+    list-style-type: none; /* Removes bullets */
     margin-bottom: 0.5rem;
 }
 
