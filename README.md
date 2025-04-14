@@ -10,6 +10,7 @@ This is my professional portfolio website hosted on AWS S3, showcasing my skills
 - **AWS Lambda, API Gateway, and DynamoDB** : to track and display visitor counts.
 - **HTML, CSS, JavaScript**: Front-end design and development.
 - **Git & GitHub**: Version control and collaboration.
+- **GitHub Actions**: for workflow management
 - **AWS IAM**: Secure access management.
 - **CloudFormation**: Infrastructure automation.
 
