@@ -7,6 +7,7 @@ This is my professional portfolio website hosted on AWS S3, showcasing my skills
 
 ## 🛠️ Technologies Used
 - **Amazon S3**: Hosting the website as a static site.
+- **AWS Lambda, API Gateway, and DynamoDB** : to track and display visitor counts.
 - **HTML, CSS, JavaScript**: Front-end design and development.
 - **Git & GitHub**: Version control and collaboration.
 - **AWS IAM**: Secure access management.
@@ -16,7 +17,6 @@ This is my professional portfolio website hosted on AWS S3, showcasing my skills
 - Responsive design for all devices.
 - Projects and skills section highlighting my expertise.
 - Hosted on AWS S3 with scalable and secure architecture.
-
-## 📝 License
-This project is licensed under the MIT License.
+- Implemented a visitor counter API using AWS Lambda, API Gateway, and DynamoDB to track and display visitor counts.
+- Set up CI/CD with GitHub Actions to automate website updates and Lambda deployments.
 
