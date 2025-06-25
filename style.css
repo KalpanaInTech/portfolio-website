@@ -319,11 +319,11 @@ footer{
 .site-header {
     display: flex;
     align-items: center;
-    justify-content: center; /* centre-aligns content horizontally */
-    gap: 1.5rem;
+    justify-content: flex-start; /* centre-aligns content horizontally */
+    gap: 1rem;
     background: linear-gradient(45deg, #7EBAED, #559FD6);
     color: white;
-    padding: 1.5rem;
+    padding: 1rem 2rem;
     flex-wrap: wrap; /* wraps on smaller screens */
     text-align: left; /* left-align text block */
 }
