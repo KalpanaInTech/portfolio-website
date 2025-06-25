@@ -30,7 +30,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2em;
     padding: 0;
     margin: 0;
 }
@@ -177,6 +177,7 @@ nav {
     color: white;
     font-weight: bold;
 }
+/*
 .nav_class {
     background: #7EBAED;
     color: white;
@@ -184,7 +185,23 @@ nav {
     width: 18%;
     align-items: center;
     text-align: center;
+}*/
+.nav_class {
+    background: #7EBAED;
+    color: white;
+    font-weight: bold;
+    width: 18%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 6rem;       /* space at top for balance */
+    padding-bottom: 2rem;
+    gap: 2rem;              /* evenly spaced links */
+    min-height: 100vh;        /* full height sidebar */
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1); /* optional subtle shadow */
 }
+
 
 /* Main Content */
 main {
@@ -297,4 +314,24 @@ footer{
 
 .image-container:hover .email-text {
     opacity: 1; /* Show email on hover */
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centre-aligns content horizontally */
+    gap: 1.5rem;
+    background: linear-gradient(45deg, #7EBAED, #559FD6);
+    color: white;
+    padding: 1.5rem;
+    flex-wrap: wrap; /* wraps on smaller screens */
+    text-align: left; /* left-align text block */
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
 }
