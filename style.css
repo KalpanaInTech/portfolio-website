@@ -324,8 +324,7 @@ footer{
     background: linear-gradient(45deg, #7EBAED, #559FD6);
     color: white;
     padding: 1rem 2rem;
-    flex-wrap: wrap; /* wraps on smaller screens */
-    text-align: left; /* left-align text block */
+    
 }
 
 .profile-pic {
