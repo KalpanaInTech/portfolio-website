@@ -1,356 +1,912 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalpana Raj - Cloud Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  
-
-    <!-- Vertical Navigation Bar -->
-    <nav class="nav_class">
-        <ul class="nav-links">
-          <!-- <li><img src="img/profile_image.png" width="160" height="190"> </img></li>-->  
-            <li><a href="#about" class="active">ABOUT ME</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#Professional_Experience">PROFESSIONAL EXPERIENCE</a></li>
-            <li><a href="#Education">EDUCATION</a></li>
-            <li><a href="#awards">AWARDS & CERTIFICATIONS</a></li>
-            <li><a href="#interest">INTERESTS</a></li>
-            <li><a href="#contact">CONTACT ME</a></li>
-        </ul>
-    </nav>
-
-    <!-- Main Content -->
-    <main>
-        <header class="site-header">
-            <img src="img/profile_image.png" alt="Profile Picture" class="profile-pic">
-            <div>
-                <h1>Kalpana Raj</h1>
-                <p>Cloud Engineer | Full Stack Software Engineer | Mentor | Innovator</p>
-            </div>
-        </header>
-        <!-- About Me Section -->
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>
-                Hi, there! 👋 Thank you for visiting my website. 😊
-            </p>
-             <p>  
-                I am Kalpana Raj - A dynamic and result-oriented Cloud Engineer with a Master’s in Computer Engineering (Gold Medalist🥇), specialising in cloud platforms (AWS)
-                and open-source technologies. Proficient in Programming, Cloud Infrastructure, and DevOps tools, with
-                hands-on experience in developing scalable cloud-based applications.
-            </p>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li><strong>☁️ Cloud Platforms:</strong> AWS Core Services- EC2, VPC, S3, RDS, IAM, CloudFormation,
-                    CloudWatch</li>
-                <li><strong>💻 Programming:</strong> Java, JSP, Servlets, Python, C/C++</li>
-                <li><strong>🎨 Front-end Development:</strong> HTML, CSS, JavaScript</li>
-                <li><strong>🗄 Databases:</strong> SQL, SQL Workbench, Amazon RDS, DynamoDB</li>
-                <li><strong>🐧 Operating Systems:</strong> Linux, Bash Scripts, Windows</li>
-                <li><strong>🔄 Version Control:</strong> Git, GitHub</li>
-                <li><strong>🐳 Containerization:</strong> Docker, DockerHub</li>
-                <li><strong>🧩 Problem-Solving:</strong> Skilled in analyzing and resolving technical challenges
-                    efficiently</li>
-                <li><strong>🤝 Collaboration:</strong> Strong communication and teamwork in cross-functional environments
-                </li>
-            </ul>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-
-            <div class="project">
-                <h3> MeterReader+ Project - Serverless Web Application
-                    NGF Europe Ltd | Cloud Engineer | Oct 2024 – Feb 2025</h3>
-                    <p style="padding-left: 40px; line-height: 1.2;">
-                        <ul class="skills-list">
-                            <li> 🔹 Designed and developed a serverless full-stack web application, leveraging core AWS services to optimise cost efficiency, scalability, and automation. Reduced operational costs by 30%.</li>
-                            <li> 🔹 Led the entire Software Development Lifecycle (SDLC) – from requirement gathering, system design, and architecture planning to deployment and maintenance.</li>
-                            <li> 🔹 Collaborated with stakeholders to define requirements and designed the system architecture using Draw.io and the database schema using DbSchema.io, reducing query response time by 40% for large datasets.</li>
-                            <li> 🔹 Implemented AWS infrastructure with EC2, S3, VPC, IAM, RDS, Lambda, and API Gateway, ensuring high availability and security.</li>
-                            <li> 🔹 Implemented CloudFormation for Infrastructure as Code (IaC), enabling automated provisioning of AWS resources.</li>
-                            <li> 🔹 Integrated CloudWatch for real-time monitoring, with automated alerts to detect anomalies in meter readings, enhancing system reliability.</li>
-                            <li> 🔹 Developed the frontend using HTML, CSS, and JavaScript and the backend using Python, ensuring seamless user experience and API functionality.</li>
-                            <li> 🔹 Developed modular APIs for core functionalities like device management, readings input, and automatic alert notifications, ensuring seamless frontend-backend communication.</li>
-                            <li> 🔹 Automated data ingestion through CSV uploads.</li>
-                            <li> 🔹 Implemented CI/CD pipelines using GitHub Actions, containerised the application with Docker, and deployed it on AWS ECS for scalable and automated deployments.</li>
-                            <li> 🔹 Managed project workflows using Trello, version control with Git, and collaborated via GitHub to streamline development and deployments.</li>
-                            <li> 🔹 Delivered a scalable, cost-effective, and high-performance cloud application, now in the maintenance phase, ensuring continued optimisation and support.</li>
-                        </ul>
-                    </p>
-            </div>
-            <div class="project">
-                <h3>Smart Bill Automation with AWS and AI</h3>
-                <p style="padding-left: 40px; line-height: 1.2;">
-                    <ul class="skills-list" >
-                        <li>
-                            🔹 Automated bill processing and reminders using serverless architecture.
-                        </li>
-                        <li>
-                            🔹 Extracted key data (amount, due date, provider) with AWS Textract.
-                        </li>
-                        <li>
-                            🔹 Enabled real-time notifications via SES based on due dates.
-                        </li>
-                        <li>
-                            🔹 Used Tech Stack: AWS (S3, Textract, Lambda, DynamoDB, SES, IAM), Python.
-                        </li>
-                    </ul>
-    
-                </p>
-            </div>
-            <div class="project">
-                <h3>Hosting a Portfolio Website on S3</h3>
-                <p style="padding-left: 40px; line-height: 1.2;">
-                    <ul class="skills-list">
-                        <li>
-                            🔹 Designed and hosted a personal portfolio website on AWS S3 as a static website.
-                        </li>
-                        <li>
-                            🔹 Configured S3 bucket policies to allow secure public access while ensuring data integrity.
-                        </li>
-                        <li>
-                            🔹 Implemented a visitor counter API using AWS Lambda, API Gateway, and DynamoDB to track and display visitor counts.
-                        </li>
-                        <li>
-                            🔹  Automated infrastructure deployment with AWS CloudFormation, ensuring a repeatable and scalable setup.
-                        </li>
-                        <li>
-                            🔹 Set up CI/CD with GitHub Actions to automate website updates and Lambda deployments.
-                        </li>
-                        <li>
-                            🔹 Ensured cost efficiency by leveraging AWS Free Tier and configuring S3 lifecycle policies to manage storage.
-                        </li>
-                    </ul>
-    
-                </p>
-            </div>
-            <div class="project">
-                <h3>Freelance Manual Testing</h3>
-                <p style="padding-left: 40px; line-height: 1.2;">
-                    <ul class="skills-list">
-                        <li> 🔹 Conducted thorough manual testing for web and mobile applications. </li>
-                        <li>
-                            🔹 Streamlined defect management using Jira and improved product quality.
-                        </li> 
-                    </ul>
-                </p>
-                    
-             
-            </div>
-        </section>
-
-        <!-- Professional Experience Section -->
-        <section id="Professional_Experience" class="section">
-            <h2>Professional Experience</h2>
-
-            <div class="Professional Experience">
-                <div class="Professional Experience">
-                    <h3>Cloud Engineer - Aryan Pharma Limited | Cardiff, UK | Jan 2023 – Present</h3>
-                    <p>
-                        <ul class="skills-list">
-                            <li> 🔹 Developed a web application on AWS infrastructure for Croesyceiliog Pharmacy.</li>
-                            <li> 🔹 Cloud Infrastructure Setup: Deployed and configured AWS services (EC2, S3, RDS, Lambda, IAM, VPC) to support pharmacy web application. Infrastructure as Code (IaC): Used CloudFormation to provision and manage cloud resources efficiently.</li>
-                            <li> 🔹 Monitoring & Logging: Implemented AWS CloudWatch and AWS Config to track system performance and ensure reliability.</li>
-                            <li> 🔹 Security & Compliance: Configured IAM roles, security groups, and encryption to safeguard the cloud environment.</li>
-                            <li> 🔹 Application Deployment: Managed and deployed containerised applications using AWS ECS.</li>
-                            <li> 🔹 Performance Optimisation: Optimised application performance by fine-tuning database queries, enabling caching, and configuring autoscaling.</li>
-                            <li> 🔹 Collaboration & Documentation: Worked with stakeholders to understand business requirements and maintained clear project documentation.</li>
-                            <li> 🔹 Performed comprehensive manual testing, identified defects, and documented findings to improve product quality.</li>
-                        </ul>
-                    </p>
-                </div>
-                <h3>AWS re/Start - Cloud Engineering Bootcamp | Manchester, UK | Oct 2024 – Jan 2025 </h3>
-                <p>
-                    <ul class="skills-list">
-                        <li> 🔹 Developed expertise on AWS platform, Linux, Python, Databases, Networking, and Security.</li>
-                        <li> 🔹 Applied AWS services to design and deploy cloud infrastructure, focusing on automation, security, and monitoring.</li>
-                        <li> 🔹 Gained hands-on experience in real-world cloud solutions and agile methodologies.</li>
-                        <li> 🔹 Delivered a bespoke cloud solution for NGF Europe Ltd, optimising their operational processes—reducing operational costs by 30%.</li>
-                    </ul>
-                </p>
-                <h3>Full Stack Software Engineer - Codup Technologies Private Limited | India | Feb 2019 – Dec 2022 </h3>
-                <p>
-                    <ul class="skills-list">
-                        <li> 🔹 Designed and developed custom web applications using Python, Java, MySQL, HTML, and CSS, ensuring
-                            high performance and user-friendly interfaces.</li>
-                        <li> 🔹 Built and integrated APIs for an ERP solution, enhancing system interoperability and data flow..</li>
-                        <li> 🔹 Optimised API response times by 40% through caching (Redis) and MySQL query tuning (indexing, batch
-                            fetching).</li>
-                        <li> 🔹 Provisioned and managed AWS infrastructure and performed cost analysis and supported cloud
-                            migrations.</li>
-                        <li> 🔹 Migrated legacy applications to AWS, improving performance, scalability, and cost-efficiency</li>
-                       <li> 🔹 Supported data migration for a cloud-based ERP system, ensuring seamless transition with minimal
-                        downtime. </li>
-
-                       <li> 🔹 Performed extensive testing (unit, integration, and functional) on various applications to ensure reliability
-                        and bug-free release</li>
-                       <li> 🔹 Collaborated with cross-functional teams to gather requirements, troubleshoot issues, and deliver scalable
-                        solutions. </li>
-
-                    </ul> 
-                </p>
-            </div>
-            
-            <div class="Professional Experience">
-                <h3> Lecturer in Computer Engineering, SSP -  Engineering College | Gujarat, India | Jul 2014 – Jun 2018 </h3>
-                <p>
-                    <ul class="skills-list">
-                        <li> 🔹 Delivered lectures and labs on programming, software engineering, and cloud technologies, mentoring
-                            students on technical projects.</li>
-                        <li> 🔹 Guided students in open-source project development, fostering practical experience with GitHub and
-                            collaborative coding.</li>
-                        <li> 🔹 Conducted workshops on cloud computing, networking, and databases, emphasising real-world
-                            applications and best practices.</li>
-                     </ul>
-                </p>
-            </div>
-        </section>
-        <section id="Education" class="section">
-            <h2>Education</h2>
-            <div>
-                <h3>
-                    🔹  MASTER'S IN COMPUTER ENGINEERING 
-                </h3>
-                
-                <p>
-                    GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
-                </p>
-                <p>Computer Engineering | Distinction Grade</p>
-            </div>
-            <br> 
-            <div>
-                <h3>
-                    🔹  BACHELOR OF ENGINEERING (B.E) 
-                </h3>
-                <p>
-            
-                    DHARAMSINGH DESAI INSTITUTE OF TECHNOLOGY
-                </p>
-                <p>    
-                    Computer Engineering | Distinction Grade 
-                </p>
-            </div>
- 
-        </section>
-        <section id="awards" class="section">
-            <h2>Awards & Certifications</h2>
-            <ul class="skills-list">
-                <li> 🔹 AWS Certified Cloud Practitioner- <a href="https://www.credly.com/users/kalpana-raj.a7fbe001">  View My Certificates</a></li>
-                <li> 🔹 AWS re/Start Graduate - Cloud Engineering</li>
-                <li> 🔹 AWS Well-Architected Proficient</li>
-                
-                <li> 🔹 Published research on cloud resource provisioning and cybersecurity in international conferences</li>
-                <li> 🔹 Gold Medal in Master’s in Computer</li>
-            </ul>
-        </section>
-        <section id="interest" class="section">
-            <h2>Interests</h2>
-            <ul class="skills-list">
-                <li> 🔹 Designing and building cloud solutions</li>
-                <li> 🔹 Expanding multi-cloud knowledge and expertise</li>
-                <li> 🔹 Outdoor activities and travel</li>
-            </ul>
-        </section>
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <h2>Contact Me</h2>
-                 <!-- Wrap the image container in an anchor tag with mailto: -->
-                 <div class="email_div">
-                    <a href="mailto:raj.kalpana0705@gmail.com" class="spacing">
-                        <div class="image-container">
-                            <!-- Default Image -->
-                            <img src="img/email-i.png" alt="raj.kalpana0705@gmail.com" class="default-image">
-                            <!-- Hover Image -->
-                            <img src="img/mail-h.png" alt="raj.kalpana0705@gmail.com" class="hover-image">
-                            <!-- Email Address -->
-                            <div class="email-text">raj.kalpana0705@gmail.com</div>
-                        </div>
-                    </a> 
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://www.linkedin.com/in/kalpana-raj"  target="_blank">
-                        <div class="image-container">
-                            <!-- Default Image -->
-                            <img src="img/linkedin.png" alt="https://www.linkedin.com/in/kalpana-raj" class="default-image">
-                            <!-- Hover Image -->
-                            <img src="img/linkedin.png" alt="https://www.linkedin.com/in/kalpana-raj" class="hover-image">
-                            <!-- Email Address -->
-                            <div class="email-text">https://www.linkedin.com/in/kalpana-raj</div>
-                        </div>
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://github.com/KalpanaInTech"  target="_blank">
-                        <div class="image-container">
-                            <!-- Default Image -->
-                            <img src="img/github.png" alt="https://github.com/KalpanaInTech" class="default-image">
-                            <!-- Hover Image -->
-                            <img src="img/github.png" alt="https://github.com/KalpanaInTech" class="hover-image">
-                            <!-- Email Address -->
-                            <div class="email-text">https://github.com/KalpanaInTech</div>
-                        </div>
-                    </a>
-                 </div>
-   
- 
-           
-        </section>
-        <!-- Footer -->
-         
-    <footer>
-        <p>© 2025 Kalpana Raj</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <p>Visitor Count: <span id="visitor-count">Loading...</span></p>
-    </footer>
-    </main>
-
-
-    <!-- JavaScript for Smooth Scrolling and Active Section Highlighting -->
-    <script src="script.js"></script>
-    <script>
-       async function getVisitorCount() {
-            try {
-                const response = await fetch("https://8m3zgka99g.execute-api.eu-west-1.amazonaws.com/dev/visitcounter");
-                
-                // Log the full response for debugging
-                //console.log("Full Response:", response); 
-                
-                const data = await response.json();
-                
-                // Log the parsed JSON data
-                //console.log("Parsed Data:", data); 
-                
-                // Parse the 'body' field separately
-                const body = JSON.parse(data.body);
-                
-                // Log the parsed body
-                //console.log("Parsed Body:", body);
-                
-                // Check if the body contains 'visitor_count'
-                if (body && body.visitor_count !== undefined) {
-                    document.getElementById("visitor-count").innerText = body.visitor_count;
-                } else {
-                    document.getElementById("visitor-count").innerText = "No data available";
-                }
-            } catch (error) {
-                console.error("Error fetching visitor count:", error);
-                document.getElementById("visitor-count").innerText = "Error loading count";
-            }
+    <title>Kalpana Raj — Enterprise Digital Systems Specialist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --sky: #5BAEDC;
+            --sky-light: #A8D8F0;
+            --sky-dark: #2E7FAD;
+            --navy: #0D1B2A;
+            --navy-mid: #162435;
+            --white: #F4F8FB;
+            --muted: #8BA5BA;
+            --accent: #F4A34D;
+            --green: #4ED8A0;
+            --card-bg: rgba(255,255,255,0.04);
+            --card-border: rgba(91,174,220,0.15);
+            --radius: 16px;
+            --radius-sm: 10px;
         }
 
-        // Call getVisitorCount when the page loads
-        window.onload = getVisitorCount;  // Trigger the function on page load
-    </script>
-</body>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
 
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--navy);
+            color: var(--white);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        body::before {
+            content: '';
+            position: fixed; inset: 0;
+            background:
+                radial-gradient(ellipse 80% 60% at 10% 0%, rgba(91,174,220,0.12) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 50% at 90% 100%, rgba(46,127,173,0.09) 0%, transparent 60%);
+            pointer-events: none; z-index: 0;
+        }
+
+        /* ── Topbar ── */
+        .topbar {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 1rem 1.5rem;
+            background: rgba(13,27,42,0.9);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .topbar-logo {
+            font-family: 'Sora', sans-serif; font-weight: 800; font-size: 1.1rem;
+            color: var(--sky); letter-spacing: -0.5px;
+        }
+
+        .topbar-links { display: none; gap: 1.75rem; list-style: none; }
+        .topbar-links a { color: var(--muted); text-decoration: none; font-size: 0.875rem; font-weight: 500; transition: color 0.2s; }
+        .topbar-links a:hover { color: var(--sky); }
+
+        .hamburger { display: flex; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+        .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: all 0.3s ease; }
+        .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+        .hamburger.open span:nth-child(2) { opacity: 0; }
+        .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+        .nav-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 998; }
+        .nav-overlay.open { display: block; }
+
+        .nav-drawer {
+            position: fixed; top: 0; right: -100%; width: min(300px, 80vw); height: 100vh;
+            background: var(--navy-mid); border-left: 1px solid var(--card-border);
+            z-index: 999; transition: right 0.35s cubic-bezier(0.4,0,0.2,1);
+            padding: 5rem 2rem 2rem; display: flex; flex-direction: column; gap: 0.3rem;
+        }
+        .nav-drawer.open { right: 0; }
+        .nav-drawer a {
+            display: block; padding: 0.85rem 1rem; color: var(--white);
+            text-decoration: none; font-family: 'Sora', sans-serif; font-weight: 600;
+            font-size: 0.9rem; border-radius: var(--radius-sm); transition: all 0.2s;
+        }
+        .nav-drawer a:hover, .nav-drawer a.active { background: rgba(91,174,220,0.15); color: var(--sky); padding-left: 1.5rem; }
+
+        /* ── Main ── */
+        main { position: relative; z-index: 1; padding-top: 64px; }
+
+        /* ── Hero ── */
+        .hero {
+            min-height: calc(100vh - 64px);
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; padding: 3rem 1.5rem 5rem; position: relative;
+        }
+
+        .hero-avatar {
+            width: 115px; height: 115px; border-radius: 50%; object-fit: cover;
+            border: 3px solid var(--sky);
+            box-shadow: 0 0 0 7px rgba(91,174,220,0.14), 0 24px 56px rgba(0,0,0,0.45);
+            margin-bottom: 1.5rem;
+            animation: fadeUp 0.8s ease both;
+        }
+
+        .hero-tag {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            background: rgba(78,216,160,0.1); border: 1px solid rgba(78,216,160,0.3);
+            color: var(--green); font-size: 0.72rem; font-weight: 700;
+            letter-spacing: 1.8px; text-transform: uppercase;
+            padding: 0.35rem 1rem; border-radius: 100px; margin-bottom: 1rem;
+            animation: fadeUp 0.8s 0.1s ease both;
+        }
+
+        .hero h1 {
+            font-family: 'Sora', sans-serif;
+            font-size: clamp(2rem, 7.5vw, 3.8rem);
+            font-weight: 800; line-height: 1.1; letter-spacing: -1.5px;
+            margin-bottom: 0.6rem;
+            animation: fadeUp 0.8s 0.2s ease both;
+        }
+        .hero h1 span { color: var(--sky); }
+
+        .hero-role {
+            font-size: clamp(0.88rem, 2.5vw, 1.05rem);
+            color: var(--sky-light); font-weight: 500;
+            max-width: 600px; margin: 0 auto 0.6rem;
+            animation: fadeUp 0.8s 0.25s ease both;
+        }
+
+        .hero-sub {
+            font-size: clamp(0.82rem, 2vw, 0.95rem);
+            color: var(--muted); font-weight: 300;
+            max-width: 520px; margin: 0 auto 2rem;
+            animation: fadeUp 0.8s 0.3s ease both;
+        }
+
+        .hero-cta {
+            display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
+            animation: fadeUp 0.8s 0.38s ease both;
+        }
+
+        .btn {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            padding: 0.8rem 1.8rem; border-radius: 100px;
+            font-weight: 600; font-size: 0.92rem;
+            text-decoration: none; transition: all 0.25s ease; border: none; cursor: pointer;
+        }
+        .btn-primary { background: var(--sky); color: var(--navy); }
+        .btn-primary:hover { background: var(--sky-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(91,174,220,0.35); }
+        .btn-outline { background: transparent; border: 1.5px solid rgba(91,174,220,0.4); color: var(--sky-light); }
+        .btn-outline:hover { border-color: var(--sky); background: rgba(91,174,220,0.08); transform: translateY(-2px); }
+
+        .hero-stats {
+            display: flex; gap: 2rem; justify-content: center;
+            margin-top: 3.5rem; flex-wrap: wrap;
+            animation: fadeUp 0.8s 0.48s ease both;
+        }
+
+        .stat { text-align: center; }
+        .stat-num { font-family: 'Sora', sans-serif; font-size: 1.7rem; font-weight: 800; color: var(--sky); display: block; }
+        .stat-label { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.3px; max-width: 80px; display: block; }
+
+        .scroll-hint {
+            position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);
+            display: flex; flex-direction: column; align-items: center; gap: 0.4rem;
+            color: var(--muted); font-size: 0.68rem; letter-spacing: 1px; text-transform: uppercase;
+            animation: bounce 2s infinite;
+        }
+
+        /* ── Shared Section ── */
+        .section { padding: 4rem 1.5rem; max-width: 900px; margin: 0 auto; }
+
+        .section-label {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            font-size: 0.7rem; font-weight: 700; letter-spacing: 2.5px;
+            text-transform: uppercase; color: var(--sky); margin-bottom: 0.7rem;
+        }
+        .section-label::before { content: ''; display: block; width: 20px; height: 2px; background: var(--sky); border-radius: 2px; }
+
+        .section h2 {
+            font-family: 'Sora', sans-serif;
+            font-size: clamp(1.6rem, 5vw, 2.3rem);
+            font-weight: 800; letter-spacing: -0.5px; margin-bottom: 1.75rem; line-height: 1.2;
+        }
+
+        .divider { height: 1px; background: linear-gradient(90deg, var(--card-border), transparent); margin: 0 1.5rem; }
+
+        /* ── About ── */
+        .about-grid { display: grid; gap: 1.25rem; }
+
+        .about-card {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: var(--radius); padding: 1.5rem;
+        }
+        .about-card p { color: rgba(244,248,251,0.83); font-size: 0.97rem; line-height: 1.78; }
+
+        .about-highlight {
+            background: linear-gradient(135deg, rgba(91,174,220,0.07), rgba(46,127,173,0.03));
+            border: 1px solid rgba(91,174,220,0.16); border-radius: var(--radius);
+            padding: 1.1rem 1.3rem; display: flex; gap: 0.9rem; align-items: flex-start;
+        }
+        .about-highlight .icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 1px; }
+        .about-highlight strong { display: block; font-family: 'Sora', sans-serif; font-size: 0.82rem; color: var(--sky); margin-bottom: 0.2rem; }
+        .about-highlight p { font-size: 0.85rem; color: var(--muted); }
+
+        /* ── Skills ── */
+        .skills-grid { display: grid; gap: 1rem; }
+
+        .skill-card {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: var(--radius); padding: 1.2rem 1.4rem;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .skill-card:hover { border-color: rgba(91,174,220,0.4); transform: translateY(-2px); }
+        .skill-card-header { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.7rem; }
+        .skill-icon { font-size: 1.25rem; }
+        .skill-card-header h3 { font-family: 'Sora', sans-serif; font-size: 0.88rem; font-weight: 700; color: var(--sky-light); }
+        .skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+        .tag {
+            background: rgba(91,174,220,0.08); border: 1px solid rgba(91,174,220,0.16);
+            color: rgba(244,248,251,0.75); font-size: 0.75rem;
+            padding: 0.2rem 0.65rem; border-radius: 100px; font-weight: 500;
+        }
+
+        /* ── Experience ── */
+        .timeline { display: flex; flex-direction: column; position: relative; }
+        .timeline::before {
+            content: ''; position: absolute; left: 16px; top: 8px; bottom: 0;
+            width: 1px; background: linear-gradient(180deg, var(--sky), transparent);
+        }
+
+        .timeline-item { padding-left: 48px; padding-bottom: 2.5rem; position: relative; }
+
+        .timeline-dot {
+            position: absolute; left: 8px; top: 6px;
+            width: 16px; height: 16px; border-radius: 50%;
+            background: var(--sky); border: 2px solid var(--navy);
+            box-shadow: 0 0 0 3px rgba(91,174,220,0.2);
+        }
+        .timeline-dot.current { background: var(--green); box-shadow: 0 0 0 3px rgba(78,216,160,0.2); }
+
+        .timeline-meta { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.35rem; }
+
+        .timeline-date { font-size: 0.73rem; color: var(--sky); font-weight: 600; letter-spacing: 0.3px; }
+
+        .timeline-badge-current {
+            font-size: 0.65rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+            background: rgba(78,216,160,0.12); border: 1px solid rgba(78,216,160,0.3);
+            color: var(--green); padding: 0.15rem 0.6rem; border-radius: 100px;
+        }
+
+        .timeline-title { font-family: 'Sora', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.15rem; }
+        .timeline-company { font-size: 0.84rem; color: var(--muted); margin-bottom: 0.7rem; }
+        .timeline-points { list-style: none; display: flex; flex-direction: column; gap: 0.38rem; }
+        .timeline-points li { font-size: 0.86rem; color: rgba(244,248,251,0.7); padding-left: 1rem; position: relative; line-height: 1.5; }
+        .timeline-points li::before { content: '›'; position: absolute; left: 0; color: var(--sky); font-weight: 700; }
+
+        /* ── Projects ── */
+        .projects-grid { display: grid; gap: 1.2rem; }
+
+        .project-card {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: var(--radius); padding: 1.4rem 1.5rem;
+            transition: border-color 0.25s, transform 0.25s; position: relative; overflow: hidden;
+        }
+        .project-card::before {
+            content: ''; position: absolute; top: 0; left: 0;
+            width: 3px; height: 100%;
+            background: linear-gradient(180deg, var(--sky), var(--sky-dark));
+        }
+        .project-card:hover { border-color: rgba(91,174,220,0.35); transform: translateY(-3px); }
+
+        .project-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.7rem; flex-wrap: wrap; }
+        .project-header h3 { font-family: 'Sora', sans-serif; font-size: 0.97rem; font-weight: 700; line-height: 1.3; }
+
+        .project-company {
+            font-size: 0.73rem; color: var(--sky); font-weight: 600;
+            background: rgba(91,174,220,0.1); border: 1px solid rgba(91,174,220,0.2);
+            padding: 0.18rem 0.65rem; border-radius: 100px; white-space: nowrap;
+        }
+
+        .project-outcome {
+            background: rgba(244,163,77,0.08); border: 1px solid rgba(244,163,77,0.2);
+            border-radius: var(--radius-sm); padding: 0.5rem 0.9rem;
+            margin-bottom: 0.7rem; font-size: 0.82rem; color: var(--accent); font-weight: 600;
+        }
+
+        .project-desc { font-size: 0.87rem; color: var(--muted); line-height: 1.65; margin-bottom: 0.9rem; }
+
+        .project-tech { display: flex; flex-wrap: wrap; gap: 0.38rem; }
+        .tech-tag {
+            background: rgba(22,36,53,0.9); border: 1px solid rgba(91,174,220,0.14);
+            color: var(--sky-light); font-size: 0.7rem; font-weight: 600;
+            padding: 0.17rem 0.58rem; border-radius: 6px;
+        }
+
+        /* ── Education ── */
+        .edu-grid { display: grid; gap: 1rem; }
+        .edu-card {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: var(--radius); padding: 1.2rem 1.4rem;
+            display: flex; gap: 1rem; align-items: flex-start;
+        }
+        .edu-emoji { font-size: 1.7rem; flex-shrink: 0; }
+        .edu-degree { font-family: 'Sora', sans-serif; font-size: 0.93rem; font-weight: 700; margin-bottom: 0.2rem; }
+        .edu-school { font-size: 0.83rem; color: var(--muted); }
+        .edu-grade {
+            display: inline-block; margin-top: 0.45rem;
+            background: rgba(244,163,77,0.1); border: 1px solid rgba(244,163,77,0.25);
+            color: var(--accent); font-size: 0.72rem; font-weight: 700;
+            padding: 0.18rem 0.7rem; border-radius: 100px;
+        }
+
+        /* ── Awards ── */
+        .awards-grid { display: grid; gap: 0.7rem; }
+        .award-item {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: var(--radius-sm); padding: 0.95rem 1.2rem;
+            display: flex; align-items: center; gap: 0.9rem; transition: border-color 0.2s;
+        }
+        .award-item:hover { border-color: rgba(91,174,220,0.35); }
+        .award-emoji { font-size: 1.2rem; flex-shrink: 0; }
+        .award-text { font-size: 0.88rem; color: rgba(244,248,251,0.85); }
+        .award-text a { color: var(--sky); text-decoration: none; font-weight: 600; }
+
+        /* ── Interests ── */
+        .interests-row { display: flex; flex-wrap: wrap; gap: 0.7rem; }
+        .interest-pill {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: 100px; padding: 0.55rem 1.1rem; font-size: 0.86rem;
+            display: flex; align-items: center; gap: 0.45rem; transition: border-color 0.2s;
+        }
+        .interest-pill:hover { border-color: rgba(91,174,220,0.4); }
+
+        /* ── Contact ── */
+        .contact-wrap { display: flex; flex-direction: column; gap: 0.9rem; }
+        .contact-card {
+            display: flex; align-items: center; gap: 1.2rem;
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: var(--radius); padding: 1.2rem 1.4rem;
+            text-decoration: none; color: var(--white); transition: all 0.25s;
+        }
+        .contact-card:hover { border-color: var(--sky); background: rgba(91,174,220,0.06); transform: translateX(4px); }
+        .contact-icon-wrap {
+            width: 42px; height: 42px; border-radius: 11px;
+            background: rgba(91,174,220,0.1); display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+        }
+        .contact-icon-wrap img { width: 24px; height: 24px; object-fit: contain; }
+        .contact-label { font-size: 0.73rem; color: var(--muted); margin-bottom: 0.12rem; }
+        .contact-value { font-family: 'Sora', sans-serif; font-size: 0.86rem; font-weight: 600; }
+        .contact-arrow { margin-left: auto; color: var(--muted); transition: transform 0.2s; }
+        .contact-card:hover .contact-arrow { transform: translateX(4px); color: var(--sky); }
+
+        /* ── Footer ── */
+        footer {
+            background: var(--navy-mid); border-top: 1px solid var(--card-border);
+            padding: 2rem 1.5rem; text-align: center; font-size: 0.83rem; color: var(--muted);
+        }
+        footer .visitor {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            background: rgba(91,174,220,0.07); border: 1px solid rgba(91,174,220,0.15);
+            padding: 0.38rem 1rem; border-radius: 100px; margin-top: 0.7rem; font-size: 0.78rem;
+        }
+        footer .visitor span { color: var(--sky); font-weight: 700; }
+
+        /* ── Animations ── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50%       { transform: translateX(-50%) translateY(6px); }
+        }
+        .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .reveal.visible { opacity: 1; transform: none; }
+
+        /* ── Desktop ── */
+        @media (min-width: 768px) {
+            .hamburger { display: none; }
+            .topbar-links { display: flex; }
+            .section { padding: 5rem 2rem; }
+            .about-grid { grid-template-columns: 1.1fr 0.9fr; }
+            .skills-grid { grid-template-columns: 1fr 1fr; }
+            .projects-grid { grid-template-columns: 1fr 1fr; }
+            .edu-grid { grid-template-columns: 1fr 1fr; }
+            .contact-wrap { display: grid; grid-template-columns: 1fr 1fr; }
+        }
+        @media (min-width: 1024px) {
+            .skills-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Topbar -->
+<nav class="topbar">
+    <div class="topbar-logo">KR</div>
+    <ul class="topbar-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<div class="nav-overlay" id="navOverlay"></div>
+<div class="nav-drawer" id="navDrawer">
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#awards">Awards & Certs</a>
+    <a href="#interests">Interests</a>
+    <a href="#contact">Contact Me</a>
+</div>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <img src="img/profile_image.png" alt="Kalpana Raj" class="hero-avatar">
+        <div class="hero-tag">● Currently at NSG Group</div>
+        <h1>Hi, I'm <span>Kalpana Raj</span></h1>
+        <p class="hero-role">Enterprise Digital Systems Specialist · UAT & Platform Delivery · AWS & Cloud</p>
+        <p class="hero-sub">Ensuring enterprise platforms are reliable, governance-aligned, and operationally effective at scale — Manchester, UK</p>
+        <div class="hero-cta">
+            <a href="#experience" class="btn btn-primary">See My Work →</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num">400+</span>
+                <span class="stat-label">Sites — Global Rollout</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">15+</span>
+                <span class="stat-label">Years in Tech</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">AWS</span>
+                <span class="stat-label">Certified</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="visitor-count">—</span>
+                <span class="stat-label">Visitors</span>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+            scroll
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ABOUT -->
+    <section class="section reveal" id="about">
+        <div class="section-label">Who I am</div>
+        <h2>About Me</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <p>I'm an <strong>Enterprise Digital Systems & Platform Specialist</strong> working within regulated, large-scale environments — focused on ensuring digital platforms are reliable, governance-aligned, and operationally effective at scale.</p>
+                <br>
+                <p>At NSG Group, I play a key role in the global rollout of <strong>AVA2.0</strong>, an enterprise EHS platform deployed across 400+ sites. My work sits at the intersection of business operations, system governance, and technical delivery.</p>
+                <br>
+                <p>I bring a strong technical foundation from AWS cloud engineering, enabling me to bridge infrastructure, application, and business layers effectively.</p>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:0.75rem;">
+                <div class="about-highlight">
+                    <div class="icon">🏢</div>
+                    <div>
+                        <strong>Currently</strong>
+                        <p>EHS Digital Resource at NSG Group — global AVA2.0 rollout across 400+ sites</p>
+                    </div>
+                </div>
+                <div class="about-highlight">
+                    <div class="icon">🎯</div>
+                    <div>
+                        <strong>Specialist In</strong>
+                        <p>UAT, workflow validation, data integrity, Power BI reporting & platform governance</p>
+                    </div>
+                </div>
+                <div class="about-highlight">
+                    <div class="icon">🌍</div>
+                    <div>
+                        <strong>Based in Manchester, UK</strong>
+                        <p>Open to Enterprise Systems, Digital Platforms & Transformation roles</p>
+                    </div>
+                </div>
+                <div class="about-highlight">
+                    <div class="icon">🎓</div>
+                    <div>
+                        <strong>Gold Medalist 🥇</strong>
+                        <p>Master's in Computer Engineering, Gujarat Technological University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- SKILLS -->
+    <section class="section reveal" id="skills">
+        <div class="section-label">What I bring</div>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-card-header"><span class="skill-icon">🧪</span><h3>UAT & Quality</h3></div>
+                <div class="skill-tags">
+                    <span class="tag">User Acceptance Testing</span><span class="tag">Defect Management</span>
+                    <span class="tag">Workflow Validation</span><span class="tag">Regression Testing</span><span class="tag">Jira</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-header"><span class="skill-icon">📊</span><h3>Data & Reporting</h3></div>
+                <div class="skill-tags">
+                    <span class="tag">Power BI</span><span class="tag">Excel</span><span class="tag">Data Integrity</span>
+                    <span class="tag">Dashboard Validation</span><span class="tag">Adoption Analytics</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-header"><span class="skill-icon">☁️</span><h3>Cloud (AWS)</h3></div>
+                <div class="skill-tags">
+                    <span class="tag">EC2</span><span class="tag">S3</span><span class="tag">Lambda</span><span class="tag">RDS</span>
+                    <span class="tag">API Gateway</span><span class="tag">CloudFormation</span><span class="tag">CloudWatch</span><span class="tag">IAM</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-header"><span class="skill-icon">🏗️</span><h3>Platform & Governance</h3></div>
+                <div class="skill-tags">
+                    <span class="tag">EHS Platforms</span><span class="tag">AVA2.0</span><span class="tag">Compliance Alignment</span>
+                    <span class="tag">Regulatory Workflows</span><span class="tag">Stakeholder Management</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-header"><span class="skill-icon">🐳</span><h3>DevOps & Tooling</h3></div>
+                <div class="skill-tags">
+                    <span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">CI/CD</span>
+                    <span class="tag">Git</span><span class="tag">Trello</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-header"><span class="skill-icon">💻</span><h3>Programming</h3></div>
+                <div class="skill-tags">
+                    <span class="tag">Python</span><span class="tag">Java</span><span class="tag">JavaScript</span>
+                    <span class="tag">HTML/CSS</span><span class="tag">SQL</span><span class="tag">Bash</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- EXPERIENCE -->
+    <section class="section reveal" id="experience">
+        <div class="section-label">Where I've worked</div>
+        <h2>Experience</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot current"></div>
+                <div class="timeline-meta">
+                    <span class="timeline-date">Aug 2025 – Present</span>
+                    <span class="timeline-badge-current">● Current Role</span>
+                </div>
+                <div class="timeline-title">EHS Digital Resource — Enterprise Platform Delivery</div>
+                <div class="timeline-company">NSG Group · Manchester, UK</div>
+                <ul class="timeline-points">
+                    <li>Contributing to the global rollout of AVA2.0 — an enterprise EHS platform across 400+ sites and multiple regions</li>
+                    <li>Leading structured UAT, validating system functionality against business, operational, and regulatory requirements</li>
+                    <li>Validating end-to-end workflows: Events, Incident Management, Corrective Actions & Business Continuity (BCP)</li>
+                    <li>Acting as bridge between business stakeholders and technical teams — translating requirements into system behaviours</li>
+                    <li>Ensuring data integrity and reporting accuracy for compliance and leadership dashboards</li>
+                    <li>Analysing legacy platform (AVA1.0) usage with Power BI and Excel to identify adoption gaps and inform transition strategy</li>
+                    <li>Supporting governance and compliance alignment across business units</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                    <span class="timeline-date">Jan 2024 – Aug 2025</span>
+                </div>
+                <div class="timeline-title">Cloud Engineer</div>
+                <div class="timeline-company">Croesyceiliog Pharmacy · Cardiff, Wales, UK</div>
+                <ul class="timeline-points">
+                    <li>Supported a production web application hosted on AWS, maintaining reliability and day-to-day operations</li>
+                    <li>Monitored system performance and availability, troubleshooting incidents to minimise downtime</li>
+                    <li>Worked with AWS services to support infrastructure configuration and improve platform reliability</li>
+                    <li>Assisted with automation to reduce manual effort and improve consistency of system operations</li>
+                    <li>Collaborated with developers to support deployments and resolve environment issues</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                    <span class="timeline-date">Feb 2019 – Dec 2022</span>
+                </div>
+                <div class="timeline-title">Software Engineer</div>
+                <div class="timeline-company">Codup Technologies Private Limited</div>
+                <ul class="timeline-points">
+                    <li>Supported business applications throughout the software lifecycle — development to maintenance</li>
+                    <li>Contributed to cloud migration initiatives and improvements to system performance and stability</li>
+                    <li>Executed end-to-end testing and UAT to ensure solutions met business requirements</li>
+                    <li>Collaborated with stakeholders to understand requirements and deliver reliable solutions</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                    <span class="timeline-date">Jul 2014 – Jul 2018</span>
+                </div>
+                <div class="timeline-title">Lecturer in Computer Engineering (Java)</div>
+                <div class="timeline-company">Shree Swaminarayan Institute of Technology</div>
+                <ul class="timeline-points">
+                    <li>Delivered lectures and labs on programming, software engineering & cloud technologies</li>
+                    <li>Guided students in open-source projects via GitHub; ran workshops on cloud computing and databases</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                    <span class="timeline-date">Aug 2008 – Mar 2010</span>
+                </div>
+                <div class="timeline-title">Lecturer in Computer Science</div>
+                <div class="timeline-company">ASM Group of Institutes</div>
+                <ul class="timeline-points">
+                    <li>Taught computer science fundamentals and supported practical lab sessions</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                    <span class="timeline-date">Jul 2007 – Jul 2008</span>
+                </div>
+                <div class="timeline-title">Software Engineer Intern</div>
+                <div class="timeline-company">Inetsystems Private Limited · Pune, India</div>
+                <ul class="timeline-points">
+                    <li>Gained foundational software engineering experience in a live development environment</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- PROJECTS -->
+    <section class="section reveal" id="projects">
+        <div class="section-label">What I've built</div>
+        <h2>Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>AVA2.0 Global EHS Platform Rollout</h3>
+                    <span class="project-company">NSG Group</span>
+                </div>
+                <div class="project-outcome">🌐 400+ sites · Multi-region · Governance-ready</div>
+                <p class="project-desc">Leading UAT and workflow validation for a global enterprise EHS platform. Ensuring system behaviour reflects business and regulatory requirements, validating dashboards for compliance decision-making, and driving adoption from the legacy AVA1.0 system.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">UAT</span><span class="tech-tag">Power BI</span><span class="tech-tag">Excel</span><span class="tech-tag">Workflow Validation</span><span class="tech-tag">Data Integrity</span><span class="tech-tag">EHS</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>QR Code Automation for Site Deployment</h3>
+                    <span class="project-company">NSG Group</span>
+                </div>
+                <div class="project-outcome">📍 Pilot: Lea Green · Scalable to global rollout</div>
+                <p class="project-desc">Designed and implemented a scalable QR code generation solution to support site-level deployment of AVA2 workflows. Automated QR creation using structured Excel inputs and scripting, reducing manual effort and enabling a reusable multi-site rollout approach with minimal intervention.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">QR Automation</span><span class="tech-tag">Excel</span><span class="tech-tag">Scripting</span><span class="tech-tag">AVA2</span><span class="tech-tag">Workflow Deployment</span><span class="tech-tag">Feb 2026–Present</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>MeterReader+ Serverless Web App</h3>
+                    <span class="project-company">Cloud Engineering</span>
+                </div>
+                <div class="project-outcome">⚡ 30% cost reduction · 40% faster query time</div>
+                <p class="project-desc">Led the full SDLC of a serverless full-stack application for meter data management — architecture design, AWS infrastructure, CI/CD automation, and CloudWatch monitoring.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Lambda</span><span class="tech-tag">ECS</span><span class="tech-tag">API Gateway</span><span class="tech-tag">RDS</span><span class="tech-tag">CloudFormation</span><span class="tech-tag">Docker</span><span class="tech-tag">GitHub Actions</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Smart Bill Automation with AWS & AI</h3>
+                </div>
+                <div class="project-outcome">🤖 Automated end-to-end bill processing & alerts</div>
+                <p class="project-desc">Serverless pipeline using AWS Textract to extract key data from uploaded bills and trigger SES payment reminders — eliminating manual processing entirely.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">S3</span><span class="tech-tag">Textract</span><span class="tech-tag">Lambda</span><span class="tech-tag">DynamoDB</span><span class="tech-tag">SES</span><span class="tech-tag">Python</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Portfolio Website on S3</h3>
+                </div>
+                <div class="project-outcome">🌐 Live visitor counter · Full CI/CD pipeline</div>
+                <p class="project-desc">Static S3-hosted portfolio with a serverless visitor counter (Lambda + DynamoDB), automated GitHub Actions deployments, and CloudFormation infrastructure as code.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">S3</span><span class="tech-tag">Lambda</span><span class="tech-tag">API Gateway</span><span class="tech-tag">DynamoDB</span><span class="tech-tag">CloudFormation</span><span class="tech-tag">GitHub Actions</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- EDUCATION -->
+    <section class="section reveal" id="education">
+        <div class="section-label">My background</div>
+        <h2>Education</h2>
+        <div class="edu-grid">
+            <div class="edu-card">
+                <div class="edu-emoji">🎓</div>
+                <div>
+                    <div class="edu-degree">Master's in Computer Engineering</div>
+                    <div class="edu-school">Gujarat Technological University (GTU) · 2016–2018</div>
+                    <span class="edu-grade">🥇 Gold Medalist</span>
+                </div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-emoji">🎓</div>
+                <div>
+                    <div class="edu-degree">B.E. in Computer Engineering</div>
+                    <div class="edu-school">Dharmsinh Desai University</div>
+                    <span class="edu-grade">Distinction Grade</span>
+                </div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-emoji">☁️</div>
+                <div>
+                    <div class="edu-degree">Cloud Computing</div>
+                    <div class="edu-school">Skills City · Oct 2024 – Jan 2025</div>
+                    <span class="edu-grade">AWS re/Start Programme</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- AWARDS -->
+    <section class="section reveal" id="awards">
+        <div class="section-label">Recognition</div>
+        <h2>Awards & Certifications</h2>
+        <div class="awards-grid">
+            <div class="award-item">
+                <span class="award-emoji">🏅</span>
+                <span class="award-text">AWS Certified Cloud Practitioner — <a href="https://www.credly.com/users/kalpana-raj.a7fbe001" target="_blank">View on Credly ↗</a></span>
+            </div>
+            <div class="award-item">
+                <span class="award-emoji">☁️</span>
+                <span class="award-text">AWS re/Start Graduate — Cloud Engineering</span>
+            </div>
+            <div class="award-item">
+                <span class="award-emoji">🏗️</span>
+                <span class="award-text">AWS Well-Architected Proficient</span>
+            </div>
+            <div class="award-item">
+                <span class="award-emoji">🦺</span>
+                <span class="award-text">IOSH Managing Safely</span>
+            </div>
+            <div class="award-item">
+                <span class="award-emoji">📄</span>
+                <span class="award-text">Published research: cloud resource provisioning using Load Comfort Index & VM Demand — international conference</span>
+            </div>
+            <div class="award-item">
+                <span class="award-emoji">🥇</span>
+                <span class="award-text">Gold Medal — Master's in Computer Engineering, GTU</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- INTERESTS -->
+    <section class="section reveal" id="interests">
+        <div class="section-label">Beyond work</div>
+        <h2>Interests</h2>
+        <div class="interests-row">
+            <div class="interest-pill">☁️ Enterprise cloud architecture</div>
+            <div class="interest-pill">📊 Data platforms & BI reporting</div>
+            <div class="interest-pill">🔄 Digital transformation</div>
+            <div class="interest-pill">🧑‍🏫 Mentoring engineers</div>
+            <div class="interest-pill">🌍 Travel & outdoor activities</div>
+            <div class="interest-pill">📚 Research & publishing</div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- CONTACT -->
+    <section class="section reveal" id="contact">
+        <div class="section-label">Say hello</div>
+        <h2>Contact Me</h2>
+        <div class="contact-wrap">
+            <a href="mailto:raj.kalpana0705@gmail.com" class="contact-card">
+                <div class="contact-icon-wrap">
+                    <img src="img/mail-h.png" alt="Email">
+                </div>
+                <div>
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">raj.kalpana0705@gmail.com</div>
+                </div>
+                <span class="contact-arrow">→</span>
+            </a>
+            <a href="https://www.linkedin.com/in/kalpana-raj" target="_blank" class="contact-card">
+                <div class="contact-icon-wrap">
+                    <img src="img/linkedin.png" alt="LinkedIn">
+                </div>
+                <div>
+                    <div class="contact-label">LinkedIn</div>
+                    <div class="contact-value">kalpana-raj</div>
+                </div>
+                <span class="contact-arrow">→</span>
+            </a>
+            <a href="https://github.com/KalpanaInTech" target="_blank" class="contact-card">
+                <div class="contact-icon-wrap">
+                    <img src="img/github.png" alt="GitHub">
+                </div>
+                <div>
+                    <div class="contact-label">GitHub</div>
+                    <div class="contact-value">KalpanaInTech</div>
+                </div>
+                <span class="contact-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Kalpana Raj · Enterprise Digital Systems Specialist</p>
+    <div class="visitor">
+        👁️ <span id="footer-visitor-count">—</span> visitors
+    </div>
+</footer>
+
+<script>
+    // Hamburger
+    const hamburger = document.getElementById('hamburger');
+    const drawer = document.getElementById('navDrawer');
+    const overlay = document.getElementById('navOverlay');
+    function toggleMenu() {
+        hamburger.classList.toggle('open');
+        drawer.classList.toggle('open');
+        overlay.classList.toggle('open');
+    }
+    hamburger.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
+    drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        drawer.classList.remove('open');
+        overlay.classList.remove('open');
+    }));
+
+    // Scroll reveal
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Active nav highlight
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(s => { if (window.scrollY >= s.offsetTop - 130) current = s.id; });
+        document.querySelectorAll('.nav-drawer a').forEach(a => {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+        });
+    });
+
+    // Visitor counter
+    async function getVisitorCount() {
+        try {
+            const res = await fetch("https://8m3zgka99g.execute-api.eu-west-1.amazonaws.com/dev/visitcounter");
+            const data = await res.json();
+            const body = JSON.parse(data.body);
+            if (body && body.visitor_count !== undefined) {
+                document.getElementById("visitor-count").innerText = body.visitor_count;
+                document.getElementById("footer-visitor-count").innerText = body.visitor_count;
+            }
+        } catch(e) { console.error(e); }
+    }
+    getVisitorCount();
+</script>
+
+</body>
 </html>
